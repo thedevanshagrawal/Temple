@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.charDhamHead {
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: underline;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+
+}
+
+.card {
+    margin: 15px;
+}
+
+
+.img-container {
+    display: flex;
+}
+
+.rameshwaram-Image {
+    height: 365px;
+    width: 390px;
+    border-radius: 8px;
+    margin: 12px 0 0 50px;
+}
+
+.h2-details {
+    margin: 15px 0 0 50px;
+    text-decoration: underline;
+    color: #201f1f;
+    ;
+}
+
+.paragraph-details {
+    width: 1180px;
+    margin: 12px 0 0 50px;
+    color: rgb(69 67 67);
+}
+
+.btn{
+    margin: 40px 0 0 50px;
+}
+
+.button-details {
+    color: white;
+    text-decoration: none;
+}
+
+.foot {
+    text-align: center;
+    margin: 52px 0 20px 0;
+    font-size: 20px;
+}
