@@ -44,7 +44,7 @@
     color: rgb(69 67 67);
 }
 
-.btn{
+.btn {
     margin: 40px 0 0 50px;
 }
 
@@ -57,4 +57,29 @@
     text-align: center;
     margin: 52px 0 20px 0;
     font-size: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .img-container {
+        flex-direction: column;
+    }
+
+    .rameshwaram-Image {
+        width: 295px;
+        height: 295px;
+        margin: 15px auto;
+    }
+
+    .h2-details{
+        margin: 15px 10px;
+    }
+
+    .paragraph-details{
+        width: fit-content;
+        margin: 10px 10px;
+    }
 }
